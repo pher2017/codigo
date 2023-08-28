@@ -13,11 +13,11 @@ const vue = new Vue({
   },
 getLista(){
  // id de la hoja de calculo
- idSheets = '1sbZtJvR5q_1rdDF34sWNaylH-1j_41gSCgEYYZRRIU8';
+ idSheets = '1CNZhgEz1aEzoRA32rtS87iArFlomyl6noKIQPH0HTec';
  //// nuestra      APIKey
- apiKey = 'AIzaSyDL9yj6t6e5P0d-YVmbx9ms4VmoOE_l2E4'; 
+ apiKey = 'AIzaSyBqN-fDN62EuWBTww5EXdx1nNA9EsqHgSo'; 
  // rango de la hoja de calculo que queremos leer
- values = 'A2:AZ100';
+ values = 'A2:N32';
 // fetch es un método nativo para hacer peticiones http
 // en el navegador 
  fetch("https://content-sheets.googleapis.com/v4/spreadsheets/" +   idSheets + "/values/A2:AZ100?access_token="+ apiKey +"&key="+  apiKey)
